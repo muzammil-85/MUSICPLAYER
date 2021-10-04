@@ -8,7 +8,7 @@ class MusicPlayer:
     def __init__(self, window ):
         self.window = window
         self.window.geometry('320x100');
-        self.window.title('Iris player');
+        self.window.title('IMplayer');
         self.window.resizable(0,0)
 
         Load = Button(window, text = 'Load' , width = 10,font = ('Times',10),command = self.load)
